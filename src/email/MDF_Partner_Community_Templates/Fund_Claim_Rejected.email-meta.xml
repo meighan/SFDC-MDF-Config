@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send to a partner when fund Claim rejected</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Community_Letterhead</letterhead>
+    <name>Fund Claim Rejected</name>
+    <style>freeForm</style>
+    <subject>Fund Claim Rejected: {!PartnerFundClaim.Title}</subject>
+    <type>html</type>
+</EmailTemplate>

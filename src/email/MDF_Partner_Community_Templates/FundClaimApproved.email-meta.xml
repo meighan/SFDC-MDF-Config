@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send to a partner when a fund claim is approved</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Fund Claim Approved</name>
+    <style>none</style>
+    <subject>Fund Claim Approved: {!SFCCLtngPtr__SFDC_MDF_Claim__c.Name}</subject>
+    <type>text</type>
+</EmailTemplate>

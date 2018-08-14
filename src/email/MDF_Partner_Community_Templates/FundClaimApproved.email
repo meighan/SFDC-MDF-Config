@@ -1,0 +1,7 @@
+{!SFCCLtngPtr__SFDC_MDF_Claim__c.CreatedBy},
+The {!Organization.Name} channel team has reviewed your submitted fund claim - {!SFCCLtngPtr__SFDC_MDF_Claim__c.Name} - and have approved the claim.
+
+Approval Comments (if provided):
+{!ApprovalRequest.Comments}
+
+The {!Organization.Name} Channel Team
